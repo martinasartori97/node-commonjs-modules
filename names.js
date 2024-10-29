@@ -1,9 +1,11 @@
-const nomeIntero = ('martina', 'sartori');
+const firstName = 'Martina';
+const lastName = 'sartori';
+
 function fullName(firstName, lastName) {
     const risultato = `${firstName} ${lastName}`;
     return risultato;
 }
 
-console.log(nomeIntero);
+console.log(fullName);
 
 module.exports = fullName
