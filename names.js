@@ -6,6 +6,6 @@ function fullName(firstName, lastName) {
     return risultato;
 }
 
-console.log(fullName);
+console.log(fullName());
 
 module.exports = fullName
