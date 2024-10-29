@@ -1,13 +1,13 @@
-const fullName = require ('./names.js')
+const fullName = require('./names.js')
 
-const myHobbies = require ('./hobbies.js')
+const myHobbies = require('./hobbies.js')
 
 
 function createFunction() {
     return {
         firstName: "Martina",
         lastName: "sartori",
-        hobbies: ["gym", "atletics", "basket"]
+        hobbies: "gym", "atletics", "basket"
     };
 }
-console.log(firstName,lastName,hobbies);
+console.log(firstName, lastName, hobbies);
