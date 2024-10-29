@@ -10,3 +10,4 @@ function createFunction() {
         hobbies: ["gym", "atletics", "basket"]
     };
 }
+console.log(firstName,lastName,hobbies);
