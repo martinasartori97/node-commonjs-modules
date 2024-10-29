@@ -1,5 +1,7 @@
-function fullName (firstName,lastName){
-    const risultato = fullName
+function fullName(firstName, lastName) {
+    const risultato = `${firstName} ${lastName}`;
     return risultato;
 }
-console.log(fullName);
+console.log(fullName('martina', 'sartori'));
+
+module.exports = fullName
